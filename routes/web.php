@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\formcontroller;
 
 
+
+
 Route::get('/',[formcontroller::class,'index'])->name('show');
 
 Route::get('/add',function(){
